@@ -25,14 +25,5 @@ public class TheIconIsInTheStep extends AbstractPostLineStep {
 
     @Override
     protected void run(PostLine line, String[] match) {
-//        System.out.println(Arrays.toString(match));
-//        var type  = match[1];
-//        var present  = match[2];
-//        var player  = match[3];
-//        var entity  = match[4];
-//        var name  = match[5];
-//        var value = resourcedTestView.getResourceCount(type);
-//        assertThat(value>0).isEqualTo(present == null);
-
     }
 }
