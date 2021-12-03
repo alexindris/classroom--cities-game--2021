@@ -1,0 +1,3 @@
+name: Alex Tello Vidal
+email: alexindris22@gmail.com
+github: alexindris
