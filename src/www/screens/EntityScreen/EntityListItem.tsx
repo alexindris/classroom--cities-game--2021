@@ -10,7 +10,7 @@ export function EntityListItem({ entity }: any) {
   );
   const { type, name, owner, resources } = entity;
   let potatoIcon = "";
-  if (resources?.potato.count > 0) {
+  if (resources?.potato.count > 0 && type === "ship") {
     potatoIcon = "\ud83e\udd54";
   } else {
     potatoIcon = "";
